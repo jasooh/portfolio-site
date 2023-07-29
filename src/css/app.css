@@ -35,15 +35,39 @@
 
 .divider {
   background-color: var(--text-color);
+  width: 0%;
   height: 1px;
   animation: divider-fade-in ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+} 
+
+/* blink effect */
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor-effect::after {
+  content: "ii";
+  background-color: var(--text-color);
+  height: 100%;
+  width: 10px;
+  animation: cursor-blink 1.5s infinite;
 }
 
 /* main */
 
 main {
+  display: flex;
   background-color: var(--secondary);
   width: 99%;
   height: 97%;
@@ -59,7 +83,51 @@ main {
 }
 
 .main-text {
+  display: flex;
+  flex-direction: column;
   width: 70%;
   height: 60%;
+}
+
+@keyframes divider-fade-in-2 {
+  0% {
+    height: 0%;
+    opacity: 0;
+  }
+  100% {
+    height: 80%;
+    opacity: 1;
+  }
+}
+
+.main-divider {
+  background-color: var(--text-color);
+  width: 1px;
+  animation: divider-fade-in-2 ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/* navigation */
+
+.nav-container {
+  display: flex;
+  gap: 3%;
+  flex-direction: column;
+  width: 50%;
+  flex-grow: 1;
+}
+
+.nav-selector {
+  font-size: 20px;
+  font-weight: 200;
+  opacity: 0.5;
+  transition-duration: 0.1s;
+}
+
+.nav-selector:hover {
+  font-size: 25px;
+  opacity: 1;
+  cursor: pointer;
 }
 
