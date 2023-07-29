@@ -1,0 +1,65 @@
+@import './constants.css';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* general */
+
+.body-bg-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  backdrop-filter: blur(12px);
+}
+
+/* divider */
+
+@keyframes divider-fade-in {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+  100% {
+    width: 15%;
+    opacity: 0.5;
+  }
+}
+
+.divider {
+  background-color: var(--text-color);
+  height: 1px;
+  animation: divider-fade-in ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/* main */
+
+main {
+  background-color: var(--secondary);
+  width: 99%;
+  height: 97%;
+  opacity: 0.95;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.main-text {
+  width: 70%;
+  height: 60%;
+}
+
