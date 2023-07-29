@@ -64,6 +64,34 @@
   animation: cursor-blink 1.5s infinite;
 }
 
+/* click effect */
+
+@keyframes animate-click {
+  0% {
+    opacity: 1;
+    width: 0.5em;
+    height: 0.5em;
+    margin: -0.25em;
+    border-width: 0.5em;
+  }
+  100% {
+    opacity: 0;
+    width: 10em;
+    height: 10em;
+    margin: -5em;
+    border-width: 0.01em;
+  }
+}
+
+div.click-effect {
+  position: fixed;
+  box-sizing: border-box;
+  border-color: var(--text-color);
+  border-style: solid;
+  border-radius: 50%;
+  animation: animate-click 0.3s ease-out;
+}
+
 /* main */
 
 main {

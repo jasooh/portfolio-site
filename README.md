@@ -1,3 +1,5 @@
-# React + TypeScript + Vite
+# awesome sauce.
 
-website template, yeah
+website portfolio, yeah!!!
+
+started on 07/29/23
