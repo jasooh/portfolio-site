@@ -16,6 +16,7 @@ export default function App() {
                 <Selector name="about." />
                 <Selector name="projects." />
                 <Selector name="experience." />
+                <Selector name="contact." />
               </Navigation>
             </div>
             <div className="main-divider"></div>
