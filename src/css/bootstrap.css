@@ -2,21 +2,28 @@
 
 /* Bootstrap overrides */
 
-/* CARDS */
+/* BUTTONS */
+.btn-primary {
+    background-color: var(--highlight);
+    border-color: var(--highlight);
+}
 
+.btn-primary:hover {
+    background-color: var(--highlight-dark);
+    border-color: var(--highlight-dark);   
+}
+
+/* CARDS */
 .card {
     max-height: 22rem;
-    background-color: var(--white);
+    background-color: var(--card-bg);
+    color: var(--text-color);
     opacity: 0.9;
     transition-duration: 0.2s;
 }
 
 .card:hover {
-    transform: rotate(1deg) translateY(-0.5em);
-}
-
-.card-title::first-letter {
-    color: var(--highlight);
+    transform: rotate(0.5deg) translateY(-0.5em);
 }
 
 .card-img-top {

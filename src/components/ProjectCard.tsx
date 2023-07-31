@@ -10,7 +10,7 @@ interface Props {
 
 export function ProjectCard({ children, title, img, link }: Props) {
   return (
-    <Card style={{ width: '20rem' }}>
+    <Card style={{ width: '15rem' }}>
       <Card.Img variant="top" src={img} />
       <Card.Body>
         <Card.Title>{title}</Card.Title> 

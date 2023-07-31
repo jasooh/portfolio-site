@@ -3,6 +3,7 @@ import { Navigation } from "./components/Navigation"
 import { Selector } from "./components/Selector"
 import { About } from "./components/About"
 import { Project } from "./components/Project"
+import { ProjectCard } from "./components/ProjectCard"
 
 function App() {
   return (
@@ -44,10 +45,24 @@ function App() {
               </p>
             </About>
             <Project>
-            <h2 className="content-title">who?</h2>
-              <p className="large-text">
-                
-              </p>
+              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+                i love lisa
+              </ProjectCard>
+              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+                i love lisa
+              </ProjectCard>
+              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+                i love lisa
+              </ProjectCard>
+              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+                i love lisa
+              </ProjectCard>
+              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+                i love lisa
+              </ProjectCard>
+              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+                i love lisa
+              </ProjectCard>
             </Project>
           </div>
         </main>
