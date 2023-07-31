@@ -18,9 +18,9 @@ function App() {
               </MainPage>
               <Navigation>
                 <Selector id="aboutContainer" name="about." />
-                <Selector name="projects." />
-                <Selector name="experience." />
-                <Selector name="contact." />
+                <Selector id="projectContainer"  name="projects." />
+                <Selector id="experienceContainer"  name="experience." />
+                <Selector id="contactContainer"  name="contact." />
               </Navigation>
             </div>
 
