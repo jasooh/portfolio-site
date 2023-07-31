@@ -4,7 +4,7 @@ interface Props {
     children: string | JSX.Element;
 }
 
-export default function MainPage({ head, sub, children }: Props) {
+export function MainPage({ head, sub, children }: Props) {
     return (
         <>
             <h1>{head}</h1>

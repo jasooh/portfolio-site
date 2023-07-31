@@ -2,7 +2,7 @@ interface Props {
     children: JSX.Element | JSX.Element[]
 }
 
-export default function Navigation({ children }: Props) {
+export function Navigation({ children }: Props) {
     return ( // pass navigation pointers to children
         <>
             <div className="nav-container">

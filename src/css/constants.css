@@ -29,3 +29,13 @@ p {
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+.large-text {
+    font-size: 17px;
+}
+
+.content-title {
+    font-weight: 500;
+    opacity: 0.5;
+    padding-bottom: 0;
+}
