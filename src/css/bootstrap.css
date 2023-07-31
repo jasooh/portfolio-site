@@ -1,0 +1,29 @@
+@import './constants.css';
+
+/* Bootstrap overrides */
+
+/* CARDS */
+
+.card {
+    max-height: 22rem;
+    background-color: var(--white);
+    opacity: 0.9;
+    transition-duration: 0.2s;
+}
+
+.card:hover {
+    transform: rotate(1deg) translateY(-0.5em);
+}
+
+.card-title::first-letter {
+    color: var(--highlight);
+}
+
+.card-img-top {
+    max-width: 100%;
+    max-height: 180px;
+    padding: 0.3em;
+    border-radius: 10px;
+}
+
+/* BADGES */

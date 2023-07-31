@@ -4,14 +4,23 @@ interface Props {
 }
 
 export function Selector({ name, id }: Props) {
-    const refElement = document.getElementById(id);
     return ( // pass navigation pointers to children
         <>
             <div 
                 className="nav-selector"
                 onClick={() => {
-                    refElement!.style.display = "flex";
-                    refElement!.style.opacity = "1";
+                    const containerChildren = document.getElementById("contentContainer")!.children;
+                    const containerArray = Array.from(containerChildren);
+                    containerArray.forEach(element => {
+                        element.style.display = "inline";
+                        element.style.opacity = "0";
+                        element.style.paddingBottom = "15%";
+                    });
+
+                    console.log(document.getElementById(id));
+                    document.getElementById(id)!.style.display = "inline";
+                    document.getElementById(id)!.style.opacity = "1";
+                    document.getElementById(id)!.style.paddingBottom = "0%";
                 }}
             >
                 { name }

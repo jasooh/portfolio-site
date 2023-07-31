@@ -14,8 +14,10 @@ document.addEventListener("click", function(event) {
   effect.addEventListener("animationend", () => {effect.parentElement?.removeChild(effect)});
 })
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+document.addEventListener("DOMContentLoaded", () => {
+  ReactDOM.createRoot(document.getElementById('root')!).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  )
+})

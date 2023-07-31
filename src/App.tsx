@@ -2,6 +2,7 @@ import { MainPage } from "./components/MainPage"
 import { Navigation } from "./components/Navigation"
 import { Selector } from "./components/Selector"
 import { About } from "./components/About"
+import { Project } from "./components/Project"
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
 
             <div className="main-divider"></div>
           </div> 
-          <div className="content-container">
+          <div id="contentContainer" className="content-container">
             <About>
               <h2 className="content-title">who?</h2>
               <p className="large-text">
@@ -42,6 +43,12 @@ function App() {
                 However, when I'm not spending all my nights working on new projects, I love to enjoy my free time playing Volleyball or desperately trying to get good at clicking heads in VALORANT.
               </p>
             </About>
+            <Project>
+            <h2 className="content-title">who?</h2>
+              <p className="large-text">
+                
+              </p>
+            </Project>
           </div>
         </main>
       </div> 

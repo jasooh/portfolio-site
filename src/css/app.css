@@ -8,7 +8,8 @@
 /* general */
 
 body {
-  background-color: var(--primary);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .body-bg-container {
@@ -19,7 +20,6 @@ body {
   color: var(--text-color);
   font-family: 'Montserrat', sans-serif;
   height: 100vh;
-  overflow-x: hidden;
 }
 
 /* divider */
@@ -149,12 +149,27 @@ main {
 }
 
 .about-container {
-  display: none;
-  opacity: 0;
+  display: inline;
+  position: absolute;
   flex-direction: column;
-  width: 100%;
+  width: fit-content;
   height: fit-content;
-  transition: opacity, 0.2s;
+  opacity: 0;
+  padding-bottom: 15%;
+  transition-duration: 0.3s;
+  /* border-style: solid; */
+}
+
+.project-container {
+  display: inline;
+  position: absolute;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  opacity: 0;
+  padding-bottom: 15%;
+  transition-duration: 0.3s;
+  /* border-style: solid; */
 }
 
 /* navigation */
