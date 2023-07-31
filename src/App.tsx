@@ -45,22 +45,22 @@ function App() {
               </p>
             </About>
             <Project>
-              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+              <ProjectCard title="Project #1" img="./src/Images/placeholder-image.png" link="https://google.ca">
                 i love lisa
               </ProjectCard>
-              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+              <ProjectCard title="Project #1" img="./src/Images/placeholder-image.png" link="https://google.ca">
                 i love lisa
               </ProjectCard>
-              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+              <ProjectCard title="Project #1" img="./src/Images/placeholder-image.png" link="https://google.ca">
                 i love lisa
               </ProjectCard>
-              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+              <ProjectCard title="Project #1" img="./src/Images/placeholder-image.png" link="https://google.ca">
                 i love lisa
               </ProjectCard>
-              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+              <ProjectCard title="Project #1" img="./src/Images/placeholder-image.png" link="https://google.ca">
                 i love lisa
               </ProjectCard>
-              <ProjectCard title="Project #1" img="./src/imgs/placeholder-image.png" link="https://google.ca">
+              <ProjectCard title="Project #1" img="./src/Images/placeholder-image.png" link="https://google.ca">
                 i love lisa
               </ProjectCard>
             </Project>
