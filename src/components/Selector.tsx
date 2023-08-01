@@ -17,12 +17,12 @@ export function Selector({ name, id }: Props) {
                         let element = e as HTMLElement;
                         element.style.opacity = "0";
                         element.style.paddingBottom = defaultOffset;
+                        element.style.zIndex = "0";
                     });
                     // pull up requested ui
-                    console.log(document.getElementById(id));
-                    document.getElementById(id)!.style.display = "flex";
                     document.getElementById(id)!.style.opacity = "1";
                     document.getElementById(id)!.style.paddingBottom = "0%";
+                    document.getElementById(id)!.style.zIndex = "1";
                 }}
             >
                 { name }

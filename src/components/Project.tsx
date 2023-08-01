@@ -5,11 +5,9 @@ interface Props {
 export function Project({ children }: Props) {
     return (
         <>
-            <div id="projectContainer"  className="project-content-container">  
-                <div className="project-container">
-                    { children }
-                </div>
-            </div> 
+            <div id="projectContainer" className="project-container">
+                { children }
+            </div>
         </>
     )
 }

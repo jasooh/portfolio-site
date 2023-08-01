@@ -5,11 +5,9 @@ interface Props {
 export function Experience({ children }: Props) {
     return (
         <>
-            {/* <div id="experienceContainer" className="experience-content-container"> */}
-                <div id="experienceContainer" className="experience-container">
-                    { children }
-                </div>
-            {/* </div> */}
+            <div id="experienceContainer" className="experience-container">
+                { children }
+            </div>
         </>
     )
 }
