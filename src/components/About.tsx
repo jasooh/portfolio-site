@@ -1,5 +1,5 @@
 interface Props {
-    children: string | JSX.Element[];
+    children: string | JSX.Element | JSX.Element[];
 }
 
 export function About({ children }: Props) {

@@ -4,18 +4,18 @@
 
 /* BUTTONS */
 .btn-primary {
-    background-color: var(--highlight);
-    border-color: var(--highlight);
+    background-color: var(--primary);
+    border-color: var(--primary);
 }
 
 .btn-primary:hover {
-    background-color: var(--highlight-dark);
-    border-color: var(--highlight-dark);   
+    background-color: var(--white);
+    border-color: var(--white);   
 }
 
 /* CARDS */
 .card {
-    max-height: 22rem;
+    /* max-height: 22rem; */
     background-color: var(--card-bg);
     color: var(--text-color);
     opacity: 0.9;
@@ -31,6 +31,14 @@
     max-height: 180px;
     padding: 0.3em;
     border-radius: 10px;
+}
+
+.card-text {
+    font-size: 13px;
+    color: var(--white);
+    width: 100%;
+    height: 60%;
+    margin-bottom: 0.5em;
 }
 
 /* BADGES */
